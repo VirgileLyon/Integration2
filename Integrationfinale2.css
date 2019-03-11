@@ -1,0 +1,230 @@
+/* Polices */ 
+@font-face{
+  font-family: "anicb";
+  src : url(anicb___.ttf);
+}
+
+@font-face{
+  font-family: "party";
+  src : url(partybusiness.ttf);
+}
+
+@font-face {
+  font-family: 'tngan';
+  src: url('tngan.ttf');
+  }
+
+a, h5, h3{
+  font-family: anicb;
+}
+
+h1{
+  font-family: party;
+}
+
+/* Carrousel */ 
+#carouselExampleIndicators .carousel-item{
+  max-height: 400px;
+}
+
+.carousel-inner{
+  position: relative;
+  width: auto;
+}
+
+.slide1{
+ position: absolute;
+ top: 200px;
+}
+
+.slide2{
+  position: absolute;
+  top: 200px;
+ }
+
+ .slide3{
+  position: absolute;
+  top: 200px;
+ }
+
+h1{
+text-align: center;
+}
+
+/* Card */ 
+.card img{
+opacity: 0.65;
+transition: opacity 700ms;
+}
+.card img:hover{
+opacity: 1;
+}
+
+.card-body{
+  background-color: black;
+}
+
+.card-body p{
+  color: white;
+}
+
+.card-img-top{
+  border: 6px solid black;
+}
+
+/* Pills */ 
+
+ .pills{
+   color: gray;
+   text-align: center;
+ }
+
+p, .pills{
+  font-family: party;
+}
+
+.pills button{
+  text-decoration: none;
+}
+
+.badge {
+  font-family: "party";
+  color: orange;
+  font-size: 2rem;
+}
+
+/* Soulignbement navbar */
+
+.link-1 {
+  transition: 0.3s ease;
+  color: gray;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.link-1:hover {
+  border-bottom: 4px solid #000;
+  padding: 6px 0; 
+}
+
+
+
+#coin {
+  background-image: url(bg_dark.png);
+  color: white;
+}
+.block_3:hover .reward {
+    opacity: 0;
+}
+.card-body{
+  background-color: black;
+}
+.card-deck {
+  padding: 3%
+}
+
+.card-text{
+  color: white;
+  font-family: "partybusiness";
+  font-size: 1.5em;
+}
+
+.gandalf{
+  margin-top: 150px;
+  left: 70px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+}
+
+.aragorn{
+  margin-top: 150px;
+  left: 70px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+}
+
+.gimli{
+  margin-top: 150px;
+  left: 90px;
+  font-family: Aniron;
+  color: white;
+  position:absolute;
+  font-size:30px;
+  text-decoration: line-through;
+}
+
+.card{
+  position:relative;
+  width: 300px;
+  padding: 8px;
+}
+
+.card-title{
+  color:white;
+  text-align:center;
+  font-size: 2rem;
+}
+
+
+.card .reward span{
+  color: orange;
+}
+
+
+.reward{
+  margin-top: 15px;
+  left: 50px;
+  top:0;
+  color: black;
+  position:absolute;
+  font-family: Aniron;
+  color: white;
+}
+
+.card-img-top{
+  background-color:white;
+  opacity: 0.2;
+}
+
+.card:hover .card-img-top{
+	opacity: 1;
+}
+
+.card:hover .reward{
+  visibility: hidden;
+}
+
+.dead{
+  margin-top: 15px;
+  left: 150px;
+  top:0;
+  color: orange;
+  font-size: 35px;
+  position:absolute;
+  font-family: "party";
+}
+
+.card:hover .dead{
+  visibility: hidden;
+}
+
+.p3{
+  color: orange;
+}
+
+h3{
+  padding: 2%;
+}
+
+#tout {
+  background-color: rgb(236,233,233)
+}
+
+h3{
+  font-size: 1rem;
+  text-align: center;
+}
